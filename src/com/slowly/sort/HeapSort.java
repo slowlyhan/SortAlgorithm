@@ -36,10 +36,6 @@ public class HeapSort {
 		for(int i=size/2;i>=0;i--){
 			Max_Heapify(arr,i,arr.length);
 		}
-		for(int i=0;i<arr.length;i++){
-			System.out.print(arr[i]+" ");
-		}
-		System.out.println();
 	}
 	
 	/**
