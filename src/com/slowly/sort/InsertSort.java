@@ -5,7 +5,7 @@ public class InsertSort {
 	public void doInsertSort(int[] arr){
 		for(int i=1;i<arr.length;i++){
 			int j = i;
-			while(arr[j]<arr[j-1]){
+			while(arr[j]<arr[j-1]&&j-1>=0){
 				int temp = arr[j];
 				arr[j] = arr[j-1];
 				arr[j-1] = temp;
